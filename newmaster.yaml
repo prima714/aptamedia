@@ -1,17 +1,4 @@
 proxies:
-- name: MASTER
-  server: api.midtrans.com
-  port: 443
-  type: trojan
-  password: eb069e7c-fabf-4218-a311-8c7a02d2ba60
-  sni: 81ov.willstore69-autoscript.my.id
-  skip-cert-verify: true
-  udp: true
-  network: ws
-  ws-opts:
-    path: "/trojanws"
-    headers:
-      Host: 81ov.willstore69-autoscript.my.id
 - name: MasterOpok2
   type: trojan
   server: 104.17.2.81
