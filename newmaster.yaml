@@ -46,6 +46,6 @@ proxies:
     path: "/trojanws"
     headers:
       Host: cdn.onlymega.com;apps.qiscus.com;dev.appsflyer.com;web.web.whatsapp.com;104.26.4.10;104.18.21.226;fastworldpay.com;akrab.sprt.my.id;api.fastworldpay.com;w5.web.whatsapp.com;io.ruangguru.com;api.midtrans.com
- interface-name: eth1
+# interface-name: eth1
 
 
