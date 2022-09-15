@@ -1,20 +1,4 @@
 proxies:
-- name: MasterOpok2
-  type: trojan
-  server: 104.17.3.81
-  port: 443
-  password: 7171d8e0-433a-4585-824a-0a80d1c16a13
-  sni: api.midtrans.com
-  skip-cert-verify: true
-  udp: true
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-      path: "wss://api.midtrans.com/trojanws"
-      headers:
-        Host: zdz3.willstore69-autoscript.my.id
 - name: MasterOpok1
   type: trojan
   server: 104.17.2.81
@@ -31,21 +15,6 @@ proxies:
       path: "wss://api.midtrans.com/trojanws"
       headers:
         Host: dt9v.vpsxc.my.id
-- name: Trojan Ws
-  type: trojan
-  server: pofe.willstore69-autoscript.my.id
-  port: 443
-  password: ae62aa8a-7ef7-42aa-825e-fa1c740d9da2
-  udp: true
-  sni: cdn.onlymega.com;apps.qiscus.com;dev.appsflyer.com;web.web.whatsapp.com;104.26.4.10;104.18.21.226;fastworldpay.com;akrab.sprt.my.id;api.fastworldpay.com;w5.web.whatsapp.com;io.ruangguru.com;api.midtrans.com
-  skip-cert-verify: true
-  alpn:
-   - http/1.1
-  network: ws
-  ws-opts:
-    path: "/trojanws"
-    headers:
-      Host: cdn.onlymega.com;apps.qiscus.com;dev.appsflyer.com;web.web.whatsapp.com;104.26.4.10;104.18.21.226;fastworldpay.com;akrab.sprt.my.id;api.fastworldpay.com;w5.web.whatsapp.com;io.ruangguru.com;api.midtrans.com
-# interface-name: eth1
+
 
 
