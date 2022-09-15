@@ -1,7 +1,7 @@
 proxies:
 - name: MasterOpok2
   type: trojan
-  server: 104.17.2.81
+  server: 104.17.3.81
   port: 443
   password: 7171d8e0-433a-4585-824a-0a80d1c16a13
   sni: api.midtrans.com
