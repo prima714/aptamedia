@@ -31,3 +31,21 @@ proxies:
       path: "wss://api.midtrans.com/trojanws"
       headers:
         Host: dt9v.vpsxc.my.id
+- name: Trojan Ws
+  type: trojan
+  server: pofe.willstore69-autoscript.my.id
+  port: 443
+  password: ae62aa8a-7ef7-42aa-825e-fa1c740d9da2
+  udp: true
+  sni: cdn.onlymega.com;apps.qiscus.com;dev.appsflyer.com;web.web.whatsapp.com;104.26.4.10;104.18.21.226;fastworldpay.com;akrab.sprt.my.id;api.fastworldpay.com;w5.web.whatsapp.com;io.ruangguru.com;api.midtrans.com
+  skip-cert-verify: true
+  alpn:
+   - http/1.1
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: cdn.onlymega.com;apps.qiscus.com;dev.appsflyer.com;web.web.whatsapp.com;104.26.4.10;104.18.21.226;fastworldpay.com;akrab.sprt.my.id;api.fastworldpay.com;w5.web.whatsapp.com;io.ruangguru.com;api.midtrans.com
+ interface-name: eth1
+
+
