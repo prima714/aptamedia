@@ -15,6 +15,22 @@ proxies:
       path: "wss://api.midtrans.com/trojanws"
       headers:
         Host: dt9v.vpsxc.my.id
+- name: MasterOpok2
+  type: trojan
+  server: 104.17.3.81
+  port: 443
+  password: 86b0b9f1-8646-4331-942f-16923ba77879
+  sni: api.midtrans.com
+  skip-cert-verify: true
+  udp: true
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+      path: "wss://api.midtrans.com/trojanws"
+      headers:
+        Host: yqyf.vpsxc.my.id
 
 
 
