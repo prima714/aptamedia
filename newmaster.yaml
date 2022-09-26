@@ -31,6 +31,23 @@ proxies:
       path: "wss://api.midtrans.com/trojanws"
       headers:
         Host: yqyf.vpsxc.my.id
+- name: Condong
+  type: trojan
+  server: 104.17.3.81
+  port: 443
+  password: 0f76131b-9d0a-40ae-8737-4a35806ed229
+  sni: api.midtrans.com
+  skip-cert-verify: true
+  udp: true
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+      path: "wss://api.midtrans.com/trojanws"
+      headers:
+        Host: 00a9.willstore69-autoscript.my.id
+ # interface-name: eth0.30
 
 
 
